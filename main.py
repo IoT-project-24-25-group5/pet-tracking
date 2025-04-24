@@ -18,7 +18,7 @@ HOST = 'iot.philippevoet.dev'
 
 # swith signal towards exteranl antenna
 wlan = WLAN(mode=WLAN.STA)
-wlan.connect(ssid='stop using our Telenet', auth=(WLAN.WPA2, '1020304050'))
+wlan.connect(ssid='', auth=(WLAN.WPA2, ''))
 while not wlan.isconnected():
     machine.idle()
 print("WiFi connected succesfully")
