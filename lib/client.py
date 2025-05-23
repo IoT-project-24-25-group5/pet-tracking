@@ -3,7 +3,7 @@ import ubinascii as binascii
 import os
 import ussl
 
-from .protocol import Websocket, urlparse  # Make sure these are available
+from .protocol import Websocket, urlparse  
 
 
 class WebsocketClient(Websocket):
